@@ -1,0 +1,183 @@
+.body{
+
+  font-family: sans-serif;
+  width: 100%;
+  margin:auto;
+  padding:0px;
+ 
+}
+nav ul li{
+     list-style: none;
+     display: inline-flex;
+     padding:5px;
+     
+
+}
+
+nav ul li a{
+  text-decoration: none;  
+  
+}
+
+.bar{
+  color:#fff;
+  
+  display: none;
+}
+/* thummnil section*/
+
+.container-2{
+  background-color: black;
+  color:#fff;
+  padding:20px;
+}
+.text_thumbnil{
+  text-align: center;
+}
+/* About section */
+.about_section{
+    text-align: center; 
+    padding:10px;      
+
+}
+.about_section p{
+  color:red;
+}
+.about_pc img{
+  width: 300px;
+  
+  margin:20px,30px;
+  box-shadow: 5px 3px 4px 1px #888888;
+}
+/* SErvice section*/
+.service{
+  text-align: center;
+  color: #fff;
+  padding:10px;
+}
+#sct{
+  padding-bottom:80px;
+}
+.service p{
+  color: red;
+  
+}
+.row{
+  padding:10px;
+   justify-content: center;
+   
+}
+.col-3{
+  padding: 10px;
+  text-align: center;
+  color:#fff;
+  border: 2px solid gray;
+  margin-left:10px;
+  
+  
+}
+.code{
+  color:red;
+}
+.skill_text{
+  text-align: center;
+}
+.col-5{
+  padding-top:50px;
+}
+.skill_text p{
+  color:red;
+}
+.container{
+  width: 500px;
+}
+.sujon{
+  background-color: lightgray;
+  width: 450px;
+  
+}
+.hossain{
+  background-color: red;
+  width: 400px;
+  text-align: right;
+  
+}
+.hossain1{
+  width: 380px;
+  background-color: red;
+  text-align: right;
+}
+.hossain2{
+  width: 230px;
+  background-color: red ;
+  text-align: right;
+}
+.hossain3{
+  width: 250px;
+  background-color: red ;
+  text-align: right;
+}
+.hossain4{
+  width: 320px;
+  background-color:red ;
+  text-align: right;
+}
+.hossain5{
+  width: 286px;
+  background-color:red;
+  text-align: right;
+}
+/* team  */
+.my-team-text{
+  text-align: center;
+  color: #fff;
+  padding-top:10px;
+}
+#padding{
+  padding: 40px;
+}
+.info{
+  padding:10px;
+}
+/* Contact */
+.contact_text{
+       text-align: center;
+}
+.contact_text p{
+      color: red;
+}
+#margin{
+  margin-left: 100px;
+  
+}
+form{
+
+}
+input{
+  width: 100%;
+}
+textarea{
+  width: 100%;
+}
+
+
+/* Fotter */
+
+#text_color{
+  color:#fff;
+}
+  @media only screen and (max-width: 600px) {
+    .bar{
+      display: block;
+       position: relative;
+       right: -80px;
+    }
+    nav ul li{
+      display: flex;
+      flex-direction: column;
+      display: none;
+    }
+   
+    
+  
+}
